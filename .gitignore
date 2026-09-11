@@ -1,0 +1,20 @@
+node_modules/
+dist/
+coverage/
+
+# Credenciales: nunca se versionan. Ver .env.example
+.env
+.env.*
+!.env.example
+
+# Supabase CLI
+supabase/.temp/
+supabase/.branches/
+
+# Datos reales o exportaciones: este repositorio sólo contiene datos ficticios
+*.xlsx
+*.xls
+*.csv
+
+.DS_Store
+Thumbs.db
