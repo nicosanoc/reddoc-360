@@ -9,9 +9,7 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "seed:generar": "node scripts/generar-seed.mjs",
-    "usuarios:demo": "node --env-file=.env scripts/crear-usuarios-demo.mjs"
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.0",
